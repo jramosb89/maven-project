@@ -16,6 +16,7 @@
     	<mule.tools.version>1.2</mule.tools.version>
     	<uid>jorgeRamos89</uid>
     	<pwd>jorgeRamos89</pwd>
+    	<derby.version>10.14.2.0</derby.version>
 	</properties>
 
 	<build>
@@ -171,14 +172,15 @@
     <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
-            <version>10.14.2.0</version>
+            <version>${derby.version}</version>
+            <!-- <scope>provided</scope>-->
         </dependency>
     <dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-json</artifactId>
             <version>${mule.version}</version>
-            <scope>provided</scope>
-        </dependency>
+            <scope>provided</scope>      
+	</dependency>
 <!--     <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-jms</artifactId>
