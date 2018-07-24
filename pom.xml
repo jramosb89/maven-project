@@ -15,7 +15,7 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
     	<uid>jorgeRamos89</uid>
-    	<pwd>123</pwd>
+    	<pwd>jorgeRamos89</pwd>
 	</properties>
 
 	<build>
